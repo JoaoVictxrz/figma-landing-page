@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.list {
+  @apply font-light text-sm;
+}
+.list1 {
+  @apply uppercase font-light text-sm border-2 p-2 rounded-md;
+}
