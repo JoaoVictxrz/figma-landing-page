@@ -32,3 +32,6 @@ body {
 .list1 {
   @apply uppercase font-light text-sm border-2 p-2 rounded-md;
 }
+.text-center {
+  @apply text-7xl font-semibold font-sans;
+}
