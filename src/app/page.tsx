@@ -49,6 +49,50 @@ export default function Home() {
               alt="image-2" />
           </div>
         </div>
+
+        {/* Page - 4 */}
+        <div className="bg-secondary w-full h-[945px] flex justify-between items-center flex-col gap-5">
+          <div className="flex flex-col gap-5 m-24">
+            <div className="w-16 h-2 bg-primary shadow-xl"></div>
+            <h1 className="text-black font-black text-5xl font-sans">Para <span className="text-primary">profissionais</span></h1>
+            <h2 className="text-black/50  text-xl font-bold font-sans">Encontre os melhores profissionais disponíveis no mercado.</h2>
+            <span className="text-black/50 text-2xl font-light">Unimos especialistas com mais de 20 anos de experiencia em diversas modalidade: <span className="text-fourth">Solda, Caldeiraria, Pintura, Mecânica etc</span>.. Adicionamos ao conhecimento deles Tecnologia e Inteligência Artificial, criando uma ferramenta com filtros mais precisos, onde só o profissionais que atendam os requisitos da vaga anunciada, podem se cadastrar. Evitando o desperdício de tempo e recursos.</span>
+          </div>
+          <div className="grid grid-cols-4 gap-5 ">
+            <div className="messages">
+              <Image
+                src="/icons/icon1.png"
+                height={60}
+                width={60}
+                alt="icon-1" />
+              <h1 className="text-black/70 font-semibold pt-12">Dos profissionais Metalmecanico conhecem a maior Rede social Profissional, onde as empresas anunciam suas vagas</h1>
+            </div>
+            <div className="messages">
+              <Image
+                src="/icons/icon2.png"
+                height={60}
+                width={60}
+                alt="icon-2" />
+              <h1 className="text-black/70 font-semibold pt-12">Dos profissionais Metalmecanico conhecem a maior Rede social Profissional, onde as empresas anunciam suas vagas</h1></div>
+            <div className="messages">
+              <Image
+                src="/icons/icon3.png"
+                height={60}
+                width={60}
+                alt="icon-3" />
+              <h1 className="text-black/70 font-semibold pt-12">Dos profissionais Metalmecanico conhecem a maior Rede social Profissional, onde as empresas anunciam suas vagas</h1></div>
+            <div className="messages">
+              <Image
+                src="/icons/icon4.png"
+                height={60}
+                width={60}
+                alt="icon-4" />
+              <h1 className="text-black/70 font-semibold pt-12">Dos profissionais Metalmecanico conhecem a maior Rede social Profissional, onde as empresas anunciam suas vagas</h1></div>
+          </div>
+          <div className="mb-5">
+            <button className="bg-third w-64 h-12 mt-8 rounded-2xl font-medium shadow-xl hover:bg-primary">Falar com um atendente</button>
+          </div>
+        </div>
       </main >
     </>
   )
