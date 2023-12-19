@@ -5,6 +5,7 @@ import { LuChevronDown, LuChevronUp } from "react-icons/lu";
 import Image from "next/image";
 import { useState } from "react";
 import Button from "./components/buttons";
+import Footer from "./components/footer";
 
 export default function Home() {
   const [open, setIsOpen] = useState(false)
@@ -161,7 +162,7 @@ export default function Home() {
         </div>
 
         {/* Page - 6 */}
-        <div className="bg-secondary w-full h-auto flex items-center flex-col gap-5">
+        <div className="bg-secondary w-full h-auto flex items-center flex-col gap-5 pb-12">
           <div className="flex justify-between">
             <div className="flex flex-col pb-8">
               <div className="">
@@ -201,6 +202,7 @@ export default function Home() {
           <Button title="Como falo com uma atendente?" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, " />
         </div>
       </main >
+      <Footer />
     </>
 
   )
