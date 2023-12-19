@@ -1,7 +1,19 @@
+"use client";
+
 import { NavBar } from "./components/navbar";
+import { LuChevronDown, LuChevronUp } from "react-icons/lu";
 import Image from "next/image";
+import { useState } from "react";
+import Button from "./components/buttons";
 
 export default function Home() {
+  const [open, setIsOpen] = useState(false)
+
+  function handleClick() {
+    setIsOpen(!open)
+
+  }
+
   return (
     <>
       <NavBar />
@@ -149,10 +161,10 @@ export default function Home() {
         </div>
 
         {/* Page - 6 */}
-        <div className="bg-secondary w-full h-[945px] flex items-center flex-col gap-5">
+        <div className="bg-secondary w-full h-auto flex items-center flex-col gap-5">
           <div className="flex justify-between">
             <div className="flex flex-col pb-8">
-              <div className="pt-24">
+              <div className="">
                 <div className="w-16 h-2 bg-primary shadow-xl"></div>
               </div>
               <div className="">
@@ -183,9 +195,13 @@ export default function Home() {
               <span className="text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, voluptas veniam aut debitis dolorum, nostrum doloremque amet. Facilis, molestiae.</span>
             </div>
           </div>
-
+          <Button title="Como funciona para empresas?" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, " />
+          <Button title="Como funciona para profissionais?" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, " />
+          <Button title="Quanto custa para anunciar uma vaga?" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, " />
+          <Button title="Como falo com uma atendente?" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, " />
         </div>
       </main >
     </>
+
   )
 }
