@@ -173,7 +173,7 @@ export default function Home() {
             </div>
             <div className=" w-[1450px] h-16 mb-"></div>
           </div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-2 gap-5 pb-32">
             <div className="flex  flex-col float-left gap-2 border-t-4 border-pink-400/60 p-6 ml-32 mr-16">
               <Image
                 src="/user-icon.png"
