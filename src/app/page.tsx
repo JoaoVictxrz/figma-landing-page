@@ -147,6 +147,44 @@ export default function Home() {
             <button className="bg-third w-64 h-12 mt-8 rounded-2xl font-medium shadow-xl hover:bg-primary">Falar com um atendente</button>
           </div>
         </div>
+
+        {/* Page - 6 */}
+        <div className="bg-secondary w-full h-[945px] flex items-center flex-col gap-5">
+          <div className="flex justify-between">
+            <div className="flex flex-col pb-8">
+              <div className="pt-24">
+                <div className="w-16 h-2 bg-primary shadow-xl"></div>
+              </div>
+              <div className="">
+                <h1 className="text-black font-black text-5xl font-sans mb-6">O que falam <br /><span className="text-primary">sobre nós</span>?</h1>
+              </div>
+            </div>
+            <div className=" w-[1450px] h-16 mb-"></div>
+          </div>
+          <div className="grid grid-cols-2 gap-5">
+            <div className="flex  flex-col float-left gap-2 border-t-4 border-pink-400/60 p-6 ml-32 mr-16">
+              <Image
+                src="/user-icon.png"
+                width={50}
+                height={50}
+                alt="user icon"
+              />
+              <span className="text-black text-lg font-bold">Lorem Ipsun</span>
+              <span className="text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, voluptas veniam aut debitis dolorum, nostrum doloremque amet. Facilis, molestiae.</span>
+            </div>
+            <div className="flex  flex-col float-left gap-2 border-t-4 border-blue-400/60 p-6 mr-32 ml-16">
+              <Image
+                src="/user-icon.png"
+                width={50}
+                height={50}
+                alt="user icon"
+              />
+              <span className="text-black text-lg font-bold">Lorem Ipsun</span>
+              <span className="text-black ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam. Exercitationem sapiente deleniti odit odio aperiam, rem porro officia dolor, voluptas veniam aut debitis dolorum, nostrum doloremque amet. Facilis, molestiae.</span>
+            </div>
+          </div>
+
+        </div>
       </main >
     </>
   )
