@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <main >
+      <main className="md:flex flex-col">
         {/* Inicial page */}
         <div className="bg-gradient-to-b from-primary via-primary to-primary/95 w-full h-[833px] flex flex-col items-center justify-center">
           <h1 className="text-center">A plataforma que conecta</h1>

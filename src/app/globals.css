@@ -45,3 +45,7 @@ body {
 .btn {
   @apply border-2 border-primary/40 rounded-2xl bg-white p-5 gap-96 flex justify-between items-center ease-in-out;
 }
+
+.responsive {
+  md: flex flex-col max-h-[796px];
+}
